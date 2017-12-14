@@ -69,9 +69,14 @@ footer{
 	margin: 50px;
 }
 
-i{
+i,span{
 		color: #0099cc;
 
+}
+
+span{
+	border: 5px solid white;
+	background-color: white;
 }
 
 
