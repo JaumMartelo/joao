@@ -1,0 +1,77 @@
+header{
+	
+	min-height: 203px;
+
+
+	background-image: url("Imagens/boca.jpg");
+	position: top center;
+	background-attachment: fixed;
+
+
+}
+
+
+	.logo{
+		float: left;
+
+	}
+		img{
+			width: 75px;
+			height: 75px;
+		}
+			nav{
+				float: right;
+			}
+				ul{}
+					li{
+						display: inline-block;
+						margin: 0 15px 0 0;
+					}
+						a{
+							position: top;
+							text-transform: uppercase;
+							background-color: black;
+							color: white;
+							text-decoration: none;
+						}
+h1{
+	padding: 1em;
+	margin: 16px auto 2px auto;
+    color: black;
+    clear: left;
+    border: 3px solid black;
+    text-align: center;
+    display: table;
+}
+
+h2{
+	text-align: center;
+}
+
+
+
+footer{
+	padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+.itens{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	-webkit-justify-content: space-around;	
+	font-size: 25px;
+	margin: 50px;
+}
+
+i{
+		color: #0099cc;
+
+}
+
+
